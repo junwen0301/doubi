@@ -32,7 +32,8 @@ magnet:
 xunlei
 sandai
 Thunder
-XLLiveUD"
+XLLiveUD
+360.cn"
 
 check_sys(){
 	if [[ -f /etc/redhat-release ]]; then
