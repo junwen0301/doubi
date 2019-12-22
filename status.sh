@@ -725,6 +725,8 @@ Install_ServerStatus_client(){
 	Download_Server_Status_client
 	echo -e "${Info} 开始下载/安装 服务脚本(init)..."
 	Service_Server_Status_client
+	curl  https://raw.githubusercontent.com/junwen0301/bash/master/check_status.sh > /root/check_status.sh && chmod +x /root/check_status.sh
+	curl  https://raw.githubusercontent.com/junwen0301/bash/master/status-client.py > /usr/local/ServerStatus/client/status-client.py
 	echo -e "${Info} 开始写入 配置..."
 	Read_config_client
 	Modify_config_client
