@@ -41,8 +41,7 @@ epochtimes
 ntdtv
 falundafa
 wujieliulan
-zhengjian
-mycard"
+zhengjian"
 
 check_sys(){
 	if [[ -f /etc/redhat-release ]]; then
