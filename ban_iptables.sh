@@ -33,7 +33,16 @@ xunlei
 sandai
 Thunder
 XLLiveUD
-360.cn"
+360.cn
+dafahao
+minghui
+dongtaiwang
+epochtimes
+ntdtv
+falundafa
+wujieliulan
+zhengjian
+mycard"
 
 check_sys(){
 	if [[ -f /etc/redhat-release ]]; then
